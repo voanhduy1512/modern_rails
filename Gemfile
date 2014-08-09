@@ -42,11 +42,11 @@ gem 'puma'
 gem 'devise'
 gem 'cancancan'
 
-gem 'inherited_resources'
-gem 'show_for'
-gem 'simple_form', '~> 3.1.0.rc2'
-gem 'responders'
+gem 'inherited_resources', '~> 1.5.0'
+gem 'show_for', github: 'voanhduy1512/show_for'
+gem 'index_for', github: 'voanhduy1512/index_for'
 gem 'has_scope'
+gem 'simple_form', '~> 3.1.0.rc2'
 
 # pagination
 gem 'kaminari'

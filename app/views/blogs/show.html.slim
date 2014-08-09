@@ -1,0 +1,7 @@
+= show_for(@blog) do |s|
+  = s.attribute :title
+  = s.attribute :author
+
+= link_to 'Edit', edit_blog_path(@blog)
+|
+= link_to 'Back', blogs_path

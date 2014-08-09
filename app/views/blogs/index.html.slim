@@ -1,0 +1,6 @@
+= index_for(@blogs) do |i|
+  = i.attribute :title
+  = i.attribute :author
+  = i.actions :all
+
+= link_to 'New', new_blog_path(@blog)
