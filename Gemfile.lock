@@ -159,7 +159,7 @@ GEM
     show_for (0.3.0)
       actionpack (>= 3.2, < 5)
       activemodel (>= 3.2, < 5)
-    simple_form (3.0.2)
+    simple_form (3.1.0.rc2)
       actionpack (~> 4.0)
       activemodel (~> 4.0)
     slim (2.0.3)
@@ -190,7 +190,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.2.2)
       coffee-rails
-    tzinfo (1.2.1)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
@@ -223,7 +223,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   show_for
-  simple_form
+  simple_form (~> 3.1.0.rc2)
   slim-rails
   spring
   turbolinks

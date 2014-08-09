@@ -44,7 +44,7 @@ gem 'cancancan'
 
 gem 'inherited_resources'
 gem 'show_for'
-gem 'simple_form'
+gem 'simple_form', '~> 3.1.0.rc2'
 gem 'responders'
 gem 'has_scope'
 
