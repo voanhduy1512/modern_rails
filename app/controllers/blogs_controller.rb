@@ -7,7 +7,7 @@ class BlogsController < InheritedResources::Base
 
 
   def create
-    create!(service: BlogService, method: :create)
+    create!
   end
 
   def update
